@@ -1,0 +1,39 @@
+body {
+  font: var(--fw-normal) var(--base-font) var(--ff-sans);
+  background: var(--clr-page-bg) var(--img-bg) no-repeat 0% 0% / 100vw 25rem;
+  padding-top: 8rem;
+  width: min(85%, 54rem);
+  margin: auto;
+}
+header > h1 {
+  color: var(--clr-white);
+}
+main {
+  margin: 3rem 0;
+}
+.add-content {
+  background: var(--clr-card-bg);
+}
+.add-content > form {
+  display: flex;
+  justify-content: space-between;
+}
+.add-button {
+  width: 3rem;
+  height: 3rem;
+  margin: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--clr-gb-4);
+  background: var(--clr-card-bg);
+  color: var(--clr-gb-3);
+  cursor: pointer;
+}
+.add-input {
+  font: var(--fw-normal);
+  line-height: 2rem;
+  color: var(--clr-white);
+  flex: 1;
+  outline: none;
+  border: none;
+  background: var(--clr-card-bg);
+}

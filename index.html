@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>T O D O</h1>
+      </header>
+      <main>
+        <div class="add-content">
+          <form action="">
+            <button class="add-button">+</button>
+            <input
+              type="text"
+              class="add-input"
+              placeholder="Create a new todo..."
+              spellcheck="false"
+              autocomplete="off"
+            />
+          </form>
+        </div>
+        <ul class="list-todo">
+          <li class="item-todo">
+            <button class="add-button"></button>
+            <p>Học tiếng anh từ 10h đến 20h mỗi ngày</p>
+          </li>
+        </ul>
+        <div class="stat">
+          <p><span class="number-item">0</span> items left</p>
+          <div class="filter">
+            <button id="all" class="on">All</button>
+            <button id="active">Active</button>
+            <button id="completed">Completed</button>
+          </div>
+          <div class="corner">
+            <button id="clear-completed">Clear Completed</button>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>Drag and drop to reorder list</p>
+      </footer>
+    </div>
+    <script src="./assets/javascript/main.js"></script>
+  </body>
+</html>
