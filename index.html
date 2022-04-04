@@ -16,7 +16,7 @@
       <main>
         <div class="add-content">
           <form action="">
-            <button class="add-button">+</button>
+            <input type="checkbox" name="" class="checkbox" />
             <input
               type="text"
               class="add-input"
@@ -27,25 +27,27 @@
           </form>
         </div>
         <ul class="list-todo">
-          <li class="item-todo">
-            <button class="add-button"></button>
-            <p>Học tiếng anh từ 10h đến 20h mỗi ngày</p>
-          </li>
+          <!-- <li class="item-todo general-size">
+            <input type="checkbox" name="" />
+            <span>${todo.text}</span>
+          </li> -->
         </ul>
-        <div class="stat">
+        <div class="stat general-size">
           <p><span class="number-item">0</span> items left</p>
           <div class="filter">
-            <button id="all" class="on">All</button>
-            <button id="active">Active</button>
-            <button id="completed">Completed</button>
+            <button id="all" class="on button-footer">All</button>
+            <button id="active" class="button-footer">Active</button>
+            <button id="completed" class="button-footer">Completed</button>
           </div>
           <div class="corner">
-            <button id="clear-completed">Clear Completed</button>
+            <button id="clear-completed" class="button-footer">
+              Clear Completed
+            </button>
           </div>
         </div>
       </main>
       <footer>
-        <p>Drag and drop to reorder list</p>
+        <p>Double -lick to edit a todo</p>
       </footer>
     </div>
     <script src="./assets/javascript/main.js"></script>
