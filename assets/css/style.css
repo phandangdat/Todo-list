@@ -53,9 +53,12 @@ main {
   font-weight: var(--fw-normal);
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .item-todo span {
-  margin: 1rem 0;
+  padding: 1rem;
+  max-width: 40rem;
+  word-wrap: break-word;
 }
 input[type='checkbox'] {
   height: 25px;
