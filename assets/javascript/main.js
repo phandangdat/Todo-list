@@ -24,15 +24,15 @@ function addTodoElement(todo) {
         this.classList.toggle("completed");
     })
 }
-// function todoActive {
-//     const buttonAll = querySelector('#all');
-//     const buttonActive = querySelector('#active');
-//     const buttonCompleted = querySelector('#completed');
+function todoActive {
+    const buttonAll = querySelector('#all');
+    const buttonActive = querySelector('#active');
+    const buttonCompleted = querySelector('#completed');
 
 
-//     buttonAll.onclick = function(e) {
-//         var itemTodos = document.querySelector('.item-todo')
+    buttonAll.onclick = function(e) {
+        var itemTodos = document.querySelector('.item-todo')
 
-//         // itemTodos.forEach((itemTodo)=>  )
-//     }
-// }
+        // itemTodos.forEach((itemTodo)=>  )
+    }
+}
